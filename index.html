@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food ordering system</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div id="maincontainer" style="height:100%;">
+    <div id="sidebar">
+     <div id="sbcontain">
+            <div id="piclogo">
+                <img src="logo2.png" height="230px" width="230px">
+                <h2 style="color: white;margin-top: 0px; margin-bottom:2px;">Restaurant's Menu</h2>
+                <h3 style="color: red;margin-top: 0px;padding-top:0px;">Eat Right, Stay Fit</h3>
+            </div>
+            <div id="line">
+                </div>
+            <div>
+              <p style="color: white; font-size:25px; text-align:center;">Quick Links</p>
+              <ol style="color: white; font-size:25px;">
+                <li style="margin-bottom:3px;">Home</li>
+                <li style="margin-bottom:3px;">Your Order</li>
+                <li style="margin-bottom:3px;">Wallet</li>
+                <li style="margin-bottom:3px;">Profile</li>
+                <li style="margin-bottom:3px;">Logout</li>
+                <li style="margin-bottom:3px;">Menu/secondScreen</li>
+              </ol>
+                </div>
+                <div id="line2">
+                </div>  
+                <div>
+                    <p style="color: white; font-size:25px; text-align:center;">More About Us</p>
+                    <ol style="color: white; font-size:25px;">
+                      <li style="margin-bottom:3px;">Our Blog</li>
+                      <li style="margin-bottom:3px;">Upcoming Dishes</li>
+                      <li style="margin-bottom:3px;">Our Story</li>
+                      <li style="margin-bottom:3px;">Social Media Links</li>
+                    </ol>
+                      </div>   
+        </div>
+    </div>
+
+    <div id="mainsection" style="display: flex; flex-direction:column; height:100%">
+        <div style="height: 10vh; background-color: #222222; display: flex; align-items: center; justify-content:space-around;">
+            <input type="text" id="searchinput" placeholder="Search Food Item" style="border:0.5px solid #333333; height: 62%; width: 65%; background-color: #333333;
+            border-radius: 3px;">
+            <button style="height: 65%; width:13%; background-color: #ff3300;color:white;font-size:16px; border:0.5px solid #ff3300; border-radius:3px;">Signup</button>
+            <button style="height: 65%; width:13%; background-color: #ff3300;color:white;font-size:16px; border:0.5px solid #ff3300; border-radius:3px;">Login</button>
+            <img src="logo2.png" style="height: 85%; width:5%">
+            </div>
+            <div style="height: 90%;">
+                <img src="logo.png" height="330px" width="1150px" style="margin-top: 25px; margin-left:25px;" />
+
+                <p style="margin-top: 20px; margin-left:25px; color:white; font-size:25px; font-weight:bold;">Menu</p>
+
+                <div id="menu-list" style="display:flex; flex-wrap:wrap; margin-top:20px; justify-content:space-between;height:480vh;">
+                </div>
+                </div>
+          
+    </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
